@@ -22,12 +22,12 @@
               <label for="exampleInputPassword1" class="form-label">Password</label>
               <input type="password" class="form-control" id="password">
             </div>
-            <button class="btn btn-primary" onclick="login()">LogIn</button>
+            <button class="btn btn-primary" onclick="login()">Sin In</button>
           </form>
           <div id="user_div" class="loggedin-div">
             <h3>Bienvenido Usuario</h3>
             <p>Bienvenido al login de firebase. Usted esta logeado</p>
-            <button type="submit" class="btn btn-primary">logOut</button>
+            <button type="submit" onclick="logout()" class="btn btn-primary">logOut</button>
           </div>
 
      
@@ -46,16 +46,7 @@
 
 <script>
   // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCxPbWhnISHclW_InK50hPbA2-EtM4PI2c",
-    authDomain: "crm-prueva.firebaseapp.com",
-    projectId: "crm-prueva",
-    storageBucket: "crm-prueva.appspot.com",
-    messagingSenderId: "830432938783",
-    appId: "1:830432938783:web:4e34904063ba3bce5cbe2a"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+
 </script>
 <script src="js/app.js"></script>
 
